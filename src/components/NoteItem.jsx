@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const NoteItem = ({note}) => {
-  const colors=["#154c79","#79154c","#504D70","#703619"];
+  const colors=["#ffc0cb","#b38693","#ffd1c0","#ffff80","#b3b35a","#ccff80","#00ffff","#00b3b3"];
   const getRandomColor=()=>{
     const randomIndex=Math.floor(Math.random()*colors.length);
     console.log(randomIndex);

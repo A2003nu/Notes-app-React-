@@ -69,12 +69,14 @@ body {
     display: none;
 }
 
-h2,  h4 {
-    font-weight: 500;
+ h4 {
+    font-weight: bolder;
+    color:black;
 }
 
 h2 {
     font-size: 2rem;
+    font-weight: bolder;
 }
 
 
@@ -146,7 +148,9 @@ h2 {
 
 .note p {
     font-size: 0.8rem;
+    font-weight:bold;
     opacity: 0.85;
+    
 }
 
 .btn.add__btn {
